@@ -11,21 +11,66 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  line-height: 2;
+  font-size: 50px;
+  margin: 50px 0 auto;
   font-family: 'Lobster', cursive;
-}
-h2 {
-  font-family: 'Montserrat', sans-serif;
-}
-h3{
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
 }
 
-.top-cloud{
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+.top-cloud {
   position: absolute;
   right: 400px;
   top: 50px;
 }
-.bottom-cloud{
+
+.bottom-cloud {
   position: absolute;
+}
+
+.footer-link {
+  color: #11999e;
+}
+
+.code {
+  border-radius: 50%;
+  float: left;
+  margin-right: 80px;
+}
+
+.draw {
+  border-radius: 50%;
+  float: right;
+  margin-left: 50px;
+}
+
+.middle-container{
+  line-height: 2;
+}
+
+.skill-row{
+  text-align: left;
+  width: 50%;
+  margin: auto auto 100px auto;
+}
+
+.profile{
+  text-align: left;
+  width: 50%;
+  margin: auto auto 100px auto;
+}
+
+.foto{
+  float: left;
+  margin-right: 50px;
 }
